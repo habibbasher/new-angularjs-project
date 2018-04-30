@@ -1,0 +1,32 @@
+{
+  "name": "new-angularjs-project",
+  "version": "1.0.0",
+  "description": "This is angularjs starting project structure",
+  "main": "app/index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node node_modules/.bin/webpack-dev-server --content-base app",
+    "build": "NODE_ENV=production node node_modules/.bin/webpack && cp app/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/habibbasher/new-angularjs-project.git"
+  },
+  "keywords": [
+    "angularjs"
+  ],
+  "author": "Habib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/habibbasher/new-angularjs-project/issues"
+  },
+  "homepage": "https://github.com/habibbasher/new-angularjs-project#readme",
+  "devDependencies": {
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15",
+    "webpack-dev-server": "^3.1.3"
+  },
+  "dependencies": {
+    "angular": "^1.6.10"
+  }
+}
